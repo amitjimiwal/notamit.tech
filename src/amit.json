@@ -1,0 +1,101 @@
+{
+  "name": "Amit Jimiwal",
+  "tagline": "Full Stack Web developer, Open source contributor and Student",
+  "nickname": "notamit",
+  "email": "amitjimiwal45@gmail.com",
+  "github": "https://github.com/amitjimiwal",
+  "twitter": "https://twitter.com/notamit_dev",
+  "medium": "https://medium.com/@amitjimiwal",
+  "linkedin": "https://www.linkedin.com/in/amitjimiwal/",
+  "instagram": "https://www.instagram.com/_amit.jimiwal_/",
+  "skills": {
+    "languages": [
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/javascript.svg",
+        "title": "JavaScript"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/typescript.svg",
+        "title": "Java"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/cpp.svg",
+        "title": "C++"
+      }
+    ],
+    "tools": [
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/react.svg",
+        "title": "REACT"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/nodejs.svg",
+        "title": "NODEJS"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/express.svg",
+        "title": "EXPRESS"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/firebase.svg",
+        "title": "Firebase"
+      },
+
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/github.svg",
+        "title": "Github"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/git.svg",
+        "title": "Git"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/postman.svg",
+        "title": "PostMan"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/git.svg",
+        "title": "Redux"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/mongodb.svg",
+        "title": "MongoDB"
+      }
+    ],
+    "platform": [
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/vercel.svg",
+        "title": "Vercel"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/netlify.svg",
+        "title": "Netlify"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "myCBSEguide",
+      "date_joining": "August 2023",
+      "date_left": "Present",
+      "description": "Working in migrating the codebase from Angular to React, optimizing the web application's performance and user experience. Collaborating with the development team to refactor and implement modern React components."
+    },
+    {
+      "title": "FrontEnd Developer",
+      "company": "Doubtless",
+      "date_joining": "May 2023",
+      "date_left": "July 2023",
+      "description": "Doubtless is a college students community platform to ask college related Doubts.Collaborated closely with the backend team,I contributed to enhancing the website's performance and user experience. This internship not only honed my technical skills but also deepened my understanding of effective teamwork and project management in a real-world setting."
+    }
+  ],
+  "contributions": [
+    {
+      "company": "stdlib- standard library for nodejs",
+      "start": "August 2023",
+      "end": "Present",
+      "description": "Added support for filling a strided array with pseudo-random numbers drawn from a Weibull distribution.Made proposed changes by the maintainers of the Project.",
+      "link": "https://github.com/stdlib-js/stdlib/pull/1012"
+    }
+  ]
+}
