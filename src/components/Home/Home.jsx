@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import {name,tagline} from '../../amit.json'
+import {name,tagline ,resume_link} from '../../amit.json'
 import profile from "../../assets/pfp.jpg";
 import Goto from "../icons/Goto";
 import { toast } from 'react-hot-toast';
@@ -22,7 +22,7 @@ const Home = () => {
         <h4 className="md:text-xl text-primary">{tagline}</h4>
       </div>
       <div className='cursor-pointer mt-5'>
-          <a href="#" target="_blank" className='text-white font-bold bg-button p-3 rounded-xl'>
+          <a href={resume_link} target="_blank" className='text-white font-bold bg-button p-3 rounded-xl' rel='noreferrer'>
             <Goto />  Resume
           </a>
       </div>
