@@ -6,7 +6,7 @@ import Bars from "./icons/Bars";
 import Close from "./icons/Close";
 import Dark from "./icons/Dark";
 let Links = [
-  { name: "Home", link: "/" },
+  { name: "Home", link: "/#home" },
   { name: "About", link: "#about" },
   { name: "Skills", link: "#skills" },
   { name: "Project", link: "#project" },
@@ -16,7 +16,7 @@ const Navbar = () => {
   const [open, setopen] = useState(false);
   const { theme ,changeTheme} = useThemeContext();
   return (
-    <section className="w-full h-20 p-2 flex  justify-between items-center md:justify-around border-2 fixed z-999">
+    <section className="w-full h-20 p-2 flex  justify-between items-center md:justify-around  fixed top-0 z-999 ">
       <div className="w-10 m-3">
         <Logo />
       </div> 
@@ -24,7 +24,7 @@ const Navbar = () => {
         <ul className={"w-full flex flex-col items-center md:flex-row md:justify-center md:items-center"+`${open ? '':' hidden md:flex'}`}>
       {
         Links.map((link,index)=> (
-          <li className="text-2xl font-medium m-5" key={index}>
+          <li className="text-2xl font-medium m-5 text-primary hover:text-secondary focus:text-secondary" key={index}>
             <a href={link.link}>{link.name}</a>
           </li>
         ))
