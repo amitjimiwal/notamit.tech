@@ -29,7 +29,7 @@ function App() {
                     Funfact
                   </p>
                   <p className="mt-1 text-sm text-gray-500">
-                    People call me Notamit
+                   I code in Turbo C++ &#x1F61C;
                   </p>
                 </div>
               </div>
