@@ -6,6 +6,7 @@ import Home from './components/Home/Home'
 import Navbar from './components/Navbar'
 import About from './components/About/About';
 import SkillContainer from './components/Skiils/SkillContainer';
+import ProjectContainer from './components/Projects/ProjectContainer';
 function App() {
   useEffect(()=>{
     toast.custom((t) => (
@@ -50,6 +51,7 @@ function App() {
     <Home/>
     {/* <About/> */}
     <SkillContainer/>
+    <ProjectContainer/>
     <Toaster/>
     </div>
   )

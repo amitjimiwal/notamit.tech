@@ -12,7 +12,9 @@ export default {
         bordercolor:"#E2E8F0",
         button:"#319795",
         background:"#F7FAFC",
-        skill:"#F6F6F6"
+        skill:"#F6F6F6",
+        project:"#EDF1FF",
+        dark:"#314E89"
       },
       fontSize:{
         heading:"2rem",

@@ -98,5 +98,37 @@
       "description": "Added support for filling a strided array with pseudo-random numbers drawn from a Weibull distribution.Made proposed changes by the maintainers of the Project.",
       "link": "https://github.com/stdlib-js/stdlib/pull/1012"
     }
+  ],
+  "projects":[
+    {
+      "name":"HealthCare_Web",
+      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1690118877/healthcare_rxsbtd.jpg",
+      "description":"A virtual AI-based assistant that displays the user's health status using lab reports. It also consists of an AI-based chatbot that is useful for people to ask queries.",
+      "github_repo":"https://github.com/amitjimiwal/HealthCare-web",
+      "live_link":"https://health-care-web-umfn-alz6bffc4-access-denied69.vercel.app/",
+      "techstack":[
+        "MERN STACK","AI-ML"
+      ]
+    },
+    {
+      "name":"AntiNormieHub",
+      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1690126475/antinnormie_l6yikw.jpg",
+      "description":"A movie media website in which you can see information about movie shows , drama etc Took various challenges like custom hooks, optimisation api calls and implemented them. Salient features - Search movies /tvshows/dramas , sections for daily and weekly trending movies",
+      "github_repo":"https://github.com/amitjimiwal/AntiNormieHub",
+      "live_link":"https://anti-normie-website.vercel.app/",
+      "techstack":[
+        "REACTJS","REDUX"
+      ]
+    },
+    {
+      "name":"Share-MSG",
+      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1690126461/share_wo5tfk.jpg",
+      "description":"Created a sample project to share your thoughts into a community. Salient features - Firebase services, SPA, Authentication , create post",
+      "github_repo":"https://github.com/amitjimiwal/ShareMSG",
+      "live_link":"https://share-msg-og.vercel.app/",
+      "techstack":[
+        "REACTJS","FIREBASE"
+      ]
+    }
   ]
 }

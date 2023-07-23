@@ -20,11 +20,11 @@ const Navbar = () => {
       <div className="w-10 m-3">
         <Logo />
       </div> 
-      <div className="absolute w-full h-auto p-5 top-20 md:static text-center">
+      <div className="absolute w-full h-auto p-5 top-20 md:static text-center bg-background">
         <ul className={"w-full flex flex-col items-center md:flex-row md:justify-center md:items-center"+`${open ? '':' hidden md:flex'}`}>
       {
         Links.map((link,index)=> (
-          <li className="text-2xl font-medium m-5 text-primary hover:text-secondary focus:text-secondary" key={index}>
+          <li className="text-2xl font-medium m-5 text-primary hover:text-secondary focus:text-secondary" key={index} onClick={()=>{setopen(!open)}}>
             <a href={link.link}>{link.name}</a>
           </li>
         ))
