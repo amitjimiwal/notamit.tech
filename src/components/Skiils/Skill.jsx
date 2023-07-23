@@ -6,5 +6,4 @@ const Skill = ({icon,title,key}) => {
     </div>
   )
 }
-
 export default Skill
