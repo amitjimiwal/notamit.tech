@@ -14,8 +14,4 @@ const ThemeContext = ({children}) => {
 }
 export default ThemeContext
 
-export const useThemeContext=()=>{
-   const {theme,changeTheme}=useContext(AppContext)
-   return {theme,changeTheme};
-}
 
