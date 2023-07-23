@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import {name,tagline ,resume_link} from '../../amit.json'
-import profile from "../../assets/pfp.jpg";
+import profile from "../../assets/pfp.png";
 import Goto from "../icons/Goto";
 import { toast } from 'react-hot-toast';
 const Home = () => {

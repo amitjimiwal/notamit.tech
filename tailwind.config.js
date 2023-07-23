@@ -10,7 +10,9 @@ export default {
         primary:"#808080",
         secondary:"#171923",
         bordercolor:"#E2E8F0",
-        button:"#319795"
+        button:"#319795",
+        background:"#F7FAFC",
+        skill:"#F6F6F6"
       },
       fontSize:{
         heading:"2rem",

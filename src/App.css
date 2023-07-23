@@ -2,8 +2,5 @@
       margin: 0px;
       padding: 0px;
       box-sizing: border-box;
-      scroll-behavior: smooth;
-}
-.backdrop{
-      backdrop-filter: blur(6px);
+      scroll-behavior: smooth; 
 }

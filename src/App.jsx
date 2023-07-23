@@ -4,6 +4,8 @@ import './App.css'
 import profile from "./assets/pfp.jpg";
 import Home from './components/Home/Home'
 import Navbar from './components/Navbar'
+import About from './components/About/About';
+import SkillContainer from './components/Skiils/SkillContainer';
 function App() {
   useEffect(()=>{
     toast.custom((t) => (
@@ -43,9 +45,11 @@ function App() {
         ))
 },[])
   return (
-    <div>
+    <div className='bg-background'>
     <Navbar/>
     <Home/>
+    {/* <About/> */}
+    <SkillContainer/>
     <Toaster/>
     </div>
   )

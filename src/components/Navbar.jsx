@@ -16,7 +16,7 @@ const Navbar = () => {
   const [open, setopen] = useState(false);
   const { theme ,changeTheme} = useThemeContext();
   return (
-    <section className="w-full h-20 p-2 flex  justify-between items-center md:justify-around  fixed top-0 z-999 ">
+    <section className="w-full h-20 p-2 flex  justify-between items-center md:justify-around  fixed top-0 z-999 bg-background">
       <div className="w-10 m-3">
         <Logo />
       </div> 
