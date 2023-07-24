@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import About from './components/About/About';
 import SkillContainer from './components/Skiils/SkillContainer';
 import ProjectContainer from './components/Projects/ProjectContainer';
+import Footer from './components/Footer/Footer';
 function App() {
   useEffect(()=>{
     toast.custom((t) => (
@@ -52,6 +53,7 @@ function App() {
     {/* <About/> */}
     <SkillContainer/>
     <ProjectContainer/>
+    <Footer/>
     <Toaster/>
     </div>
   )

@@ -20,6 +20,10 @@
         "title": "Java"
       },
       {
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/typescript.svg",
+        "title": "TypeScript"
+      },
+      {
         "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/cpp.svg",
         "title": "C++"
       }
@@ -55,7 +59,7 @@
         "title": "PostMan"
       },
       {
-        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/git.svg",
+        "icon": "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/skills/redux.svg",
         "title": "Redux"
       },
       {
