@@ -11,9 +11,9 @@ const Blogs = ({heading,description,date,readtime,key,bloglink,topics}) => {
             <div className="my-2">
                   <button className="bg-[#00A0DC] p-2 rounded-xl cursor-pointer text-white font-semibold"><a href={bloglink} target="_blank" rel="noreferrer">Read More   <FontAwesomeIcon icon={faArrowRight} beat style={{color: "#ffffff",}} /></a></button>
             </div>
-            <div className="my-3">
+            <div className="my-3 flex flex-wrap gap-3">
            {topics.map((topic,index)=>(
-            <span className="text-sm font-bold mr-4 bg-blue-400 p-1 rounded-md text-[#1A202C]" key={index}> #{topic}
+            <span className="text-sm font-bold  bg-blue-400 p-1 rounded-md text-[#1A202C]" key={index}> #{topic}
             </span> 
            ))} 
             </div>
