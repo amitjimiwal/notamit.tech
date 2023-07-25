@@ -8,6 +8,7 @@ import About from './components/About/About';
 import SkillContainer from './components/Skiils/SkillContainer';
 import ProjectContainer from './components/Projects/ProjectContainer';
 import Footer from './components/Footer/Footer';
+import BlogsContainer from './components/Blogs/BlogsContainer';
 function App() {
   useEffect(()=>{
     toast.custom((t) => (
@@ -50,9 +51,10 @@ function App() {
     <div className='bg-background'>
     <Navbar/>
     <Home/>
-    {/* <About/> */}
+    <About/>
     <SkillContainer/>
     <ProjectContainer/>
+    <BlogsContainer/>
     <Footer/>
     <Toaster/>
     </div>

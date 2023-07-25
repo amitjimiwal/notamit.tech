@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Githubsvg from "../../assets/svg/github.svg";
 import Goto from "../icons/Goto";
 const Project = ({projectname,description,preview,github,live,techstack,key}) => {
@@ -78,7 +77,7 @@ const Project = ({projectname,description,preview,github,live,techstack,key}) =>
       </div>
       <div className="w-full text-center my-3">
         {techstack.map((stack,index)=>(
-            <span className="text-sm  font-bold mx-4" key={index}>
+            <span className="text-sm  font-bold mx-4 bg-blue-400 p-1 rounded-md" key={index}>
         #{stack}
           </span>
         ))}

@@ -2,6 +2,7 @@
   "name": "Amit Jimiwal",
   "tagline": "Full Stack Web developer, Open source contributor and Student",
   "nickname": "notamit",
+  "about":" Amit this side, a 3rd year student from Maharaja Surajmal Institute of Technology, Delhi (🇮🇳) majoring in Computer Science Engineering. I'm a Full Stack Developer having experience in MERN Stack, frameworks like Nextjs . I'm also a open-source enthusiast who believes in the power of community. Writing clean code is and will always be a top priority for me.",
   "email": "amitjimiwal45@gmail.com",
   "github": "https://github.com/amitjimiwal",
   "twitter": "https://twitter.com/notamit_dev",
@@ -132,6 +133,38 @@
       "live_link":"https://share-msg-og.vercel.app/",
       "techstack":[
         "REACTJS","FIREBASE"
+      ]
+    }
+  ],
+  "blogs":[
+    {
+      "blog_title":"Handling Unhandled routes in Nodejs-app.all()",
+      "blog_description":"You all might have got an error whenever you tried to make api calls to a wrong endpoint of an API. For example, Suppose we have a API endpoint like api/v1/user that displays a user and we make a request...",
+      "post_date":"June 12 2023",
+      "read_time":"2 min read",
+      "blog_link":"https://medium.com/@amitjimiwal/handling-unhandled-routes-in-nodejs-app-all-afa988fc193",
+      "topics":[
+        "react","nodejs","express","mern"
+      ]
+    },
+    {
+      "blog_title":"Why state management is required in React ?",
+      "blog_description":"As you go through learning React, you will need to manage state efficiently in your application. A state is a built-in React object that contains some information about a component. Managing state...",
+      "post_date":"April 27 2023",
+      "read_time":"2 min read",
+      "blog_link":"https://medium.com/@amitjimiwal/why-state-management-is-required-in-react-e4f0b3e6926d",
+      "topics":[
+        "react","state management","javascript"
+      ]
+    },
+    {
+      "blog_title":"Better way to see array of objects in the console -console.table()",
+      "blog_description":"A lot of javascript developers sometimes find it diffcult to properly see the structure of the Objects array which they get from an API or any other function. So,a lot of developers uses...",
+      "post_date":"May 11 2023",
+      "read_time":"1 min read",
+      "blog_link":"https://medium.com/@amitjimiwal/better-way-to-see-array-of-objects-in-the-console-console-table-e0b8f9c6d4e4",
+      "topics":[
+       "javascript","console"
       ]
     }
   ]
