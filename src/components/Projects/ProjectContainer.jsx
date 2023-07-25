@@ -7,7 +7,7 @@ const ProjectContainer = () => {
       <div className="mb-3">
         <h1 className="text-heading text-secondary font-bold">Featured Projects</h1>
       </div>
-      <div className="ml-3">
+      <div className="ml-3 grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-center">
             {projects.map((project,index)=>(
                   <Project projectname={project.name}  description={project.description} preview={project.previewimage} github={project.github_repo} live={project.live_link} techstack={project.techstack} key={index}/>
             ))}

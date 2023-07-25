@@ -3,7 +3,7 @@ import Githubsvg from "../../assets/svg/github.svg";
 import Goto from "../icons/Goto";
 const Project = ({projectname,description,preview,github,live,techstack,key}) => {
   return (
-    <div className="bg-project border-2 border-project rounded-2xl my-5" key={key}>
+    <div className="bg-project border-2 border-project rounded-2xl my-3" key={key}>
       <div className="flex items-center bg-purple-700 p-2 rounded-t-2xl">
         <span className="w-4 h-4 bg-yellow-600 rounded-full mx-2"></span>
         <span className="w-4 h-4 bg-red-600 rounded-full mr-2"></span>
@@ -23,18 +23,18 @@ const Project = ({projectname,description,preview,github,live,techstack,key}) =>
           <span className="text-bordercolor">amit.dev</span>
         </div>
       </div>
-      <div className="text-center mt-6">
-        <h1 className="text-secondary text-heading font-bold">
+      <div className="text-center mt-3">
+        <h1 className="text-secondary text-xl font-bold">
           {projectname}
         </h1>
       </div>
-      <div className="px-10 my-5">
+      <div className="px-10 my-3">
         <img
           src={preview}
           className="rounded-xl"
         />
       </div>
-      <div className="mx-10 border-2 p-4 rounded-xl flex items-center gap-5 bg-[#ADEAE8]">
+      <div className="mx-10 border-2 p-4 rounded-xl flex items-center gap-5 bg-[#ADEAE8] text-sm">
         <span>
           <svg
             stroke="currentColor"
@@ -53,22 +53,22 @@ const Project = ({projectname,description,preview,github,live,techstack,key}) =>
         </span>
       </div>
       <div className="flex justify-center items-center gap-5">
-        <div className="cursor-pointer mt-5 text-dark">
+        <div className="cursor-pointer mt-3 text-dark">
           <a
             href={github}
             target="_blank"
-            className="font-bold p-2 rounded-xl flex items-center gap-3 text-dark border-2 border-dark"
+            className="font-bold p-1 rounded-xl flex items-center gap-1 text-dark border-2 border-dark"
             rel="noreferrer"
           >
             <img src={Githubsvg} className="text-dark" />
             Github
           </a>
         </div>
-        <div className="cursor-pointer mt-5 text-dark">
+        <div className="cursor-pointer mt-3 text-dark">
           <a
             href={live}
             target="_blank"
-            className="font-bold p-2 rounded-xl flex items-center gap-3 text-dark border-2 border-dark"
+            className="font-bold p-1 rounded-xl flex items-center gap-1 text-dark border-2 border-dark"
             rel="noreferrer"
           >
             <Goto />
@@ -76,9 +76,9 @@ const Project = ({projectname,description,preview,github,live,techstack,key}) =>
           </a>
         </div>
       </div>
-      <div className="w-full text-center my-5">
+      <div className="w-full text-center my-3">
         {techstack.map((stack,index)=>(
-            <span className="text-xsm text-subheading font-bold mx-4" key={index}>
+            <span className="text-sm  font-bold mx-4" key={index}>
         #{stack}
           </span>
         ))}
