@@ -166,6 +166,15 @@
       "topics":[
        "javascript","console"
       ]
+    },
+    {
+      "blog_title":"Handling search queries on pressing Enter in two Steps !",
+      "blog_description":"Lets say you have a search input used for search queries in your project frontend which is calling an backend api... ",
+      "read_time":"2 min read",
+      "blog_link":"https://amitjimiwal.medium.com/handling-search-queries-on-pressing-enter-in-two-steps-d9cf30149893",
+      "topics":[
+       "javascript","reactjs","typescript","nodejs","web development"
+      ]
     }
   ]
 }
