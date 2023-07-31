@@ -138,6 +138,16 @@
   ],
   "blogs":[
     {
+      "blog_title":"Handling search queries on pressing Enter in two Steps !",
+      "blog_description":"Lets say you have a search input used for search queries in your project frontend which is calling an backend api... ",
+      "post_date":"July 31 2023",
+      "read_time":"2 min read",
+      "blog_link":"https://amitjimiwal.medium.com/handling-search-queries-on-pressing-enter-in-two-steps-d9cf30149893",
+      "topics":[
+       "javascript","reactjs","typescript","nodejs","web development"
+      ]
+    },
+    {
       "blog_title":"Handling Unhandled routes in Nodejs-app.all()",
       "blog_description":"You all might have got an error whenever you tried to make api calls to a wrong endpoint of an API. For example, Suppose we have a API endpoint like api/v1/user that displays a user and we make a request...",
       "post_date":"June 12 2023",
@@ -165,15 +175,6 @@
       "blog_link":"https://medium.com/@amitjimiwal/better-way-to-see-array-of-objects-in-the-console-console-table-e0b8f9c6d4e4",
       "topics":[
        "javascript","console"
-      ]
-    },
-    {
-      "blog_title":"Handling search queries on pressing Enter in two Steps !",
-      "blog_description":"Lets say you have a search input used for search queries in your project frontend which is calling an backend api... ",
-      "read_time":"2 min read",
-      "blog_link":"https://amitjimiwal.medium.com/handling-search-queries-on-pressing-enter-in-two-steps-d9cf30149893",
-      "topics":[
-       "javascript","reactjs","typescript","nodejs","web development"
       ]
     }
   ]
