@@ -38,14 +38,31 @@ npm run dev
 
 Contributions to this project are highly appreciated. If you find any issues, have suggestions for improvements, or want to add new features, feel free to open an issue or create a pull request.
 
-To contribute to the project:
+1. Fork the repository from the GitHub page: [https://github.com/amitjimiwal/notamit.dev](https://github.com/amitjimiwal/notamit.dev)
 
-1. Fork the repository to your GitHub account.
-2. Create a new branch from the `main` branch with a descriptive name for your changes.
-3. Make your desired changes and commit them.
-4. Push your changes to your forked repository.
-5. Open a pull request, describing the changes you've made.
+2. Clone your forked repository to your local machine.
 
+3. Create a new branch for your feature or bug fix:
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+4. Make your changes and commit them with descriptive commit messages:
+
+```bash
+git commit -m "Add new feature" -m "Description of the changes."
+```
+
+5. Push the changes to your forked repository:
+
+```bash
+git push origin feature/your-feature-name
+```
+
+6. Create a pull request on the original repository, explaining the changes you made and their benefits.
+
+We appreciate your contributions, and together, we can make the Project To-Do List Manager even better!
 Please ensure that your contributions align with the overall theme and purpose of the portfolio website.
 
 ## License
