@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="w-full">
       <a href="/">
-        <img src={logo} alt="logo" className={`${theme==='dark'? "text-black" : "text-black"}`}/>
+        <img src={logo} alt="logo" className={`${theme==='dark'? "text-white" : "text-black"}`}/>
       </a>
     </div>
   ); 

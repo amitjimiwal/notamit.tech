@@ -1,8 +1,10 @@
 import Githubsvg from "../../assets/svg/github.svg";
+import { useThemeContext } from "../../hooks/useThemeContext";
 import Goto from "../icons/Goto";
 const Project = ({projectname,description,preview,github,live,techstack,key}) => {
+  const {theme}=useThemeContext();
   return (
-    <div className="bg-project border-2 border-project rounded-2xl my-3" key={key}>
+    <div className={" border-2  rounded-2xl my-3 "+`${theme==='dark' ? 'bg-[#22223b] border-[#22223b]':'bg-project border-project'}`} key={key}>
       <div className="flex items-center bg-purple-700 p-2 rounded-t-2xl">
         <span className="w-4 h-4 bg-yellow-600 rounded-full mx-2"></span>
         <span className="w-4 h-4 bg-red-600 rounded-full mr-2"></span>
@@ -23,7 +25,7 @@ const Project = ({projectname,description,preview,github,live,techstack,key}) =>
         </div>
       </div>
       <div className="text-center mt-3">
-        <h1 className="text-secondary text-xl font-bold">
+        <h1 className={"text-xl font-bold "+`${theme==='dark' ? 'text-white':'text-secondary'}`}>
           {projectname}
         </h1>
       </div>
@@ -52,18 +54,18 @@ const Project = ({projectname,description,preview,github,live,techstack,key}) =>
         </span>
       </div>
       <div className="flex justify-center items-center gap-5">
-        <div className="cursor-pointer mt-3 text-dark">
+        <div className={"cursor-pointer mt-3 "+`${theme==='dark' ? 'text-white':'text-dark'}`}>
           <a
             href={github}
             target="_blank"
             className="font-bold p-1 rounded-xl flex items-center gap-1 text-dark border-2 border-dark"
             rel="noreferrer"
           >
-            <img src={Githubsvg} className="text-dark" />
+            <img src={Githubsvg} className={`${theme==='dark' ? 'text-white':'text-dark'}`} />
             Github
           </a>
         </div>
-        <div className="cursor-pointer mt-3 text-dark">
+        <div className={"cursor-pointer mt-3 "+`${theme==='dark' ? 'text-white':'text-dark'}`}>
           <a
             href={live}
             target="_blank"

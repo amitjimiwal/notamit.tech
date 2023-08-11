@@ -1,10 +1,12 @@
 import Skill from "./Skill"
 import {skills} from '../../amit.json'
+import { useThemeContext } from "../../hooks/useThemeContext"
 const SkillContainer = () => {
+      const {theme}=useThemeContext();
   return (
     <div className="md:max-w-4xl md:mx-auto p-3 md:p-5" id="skills">
       <div className="mb-3">
-            <h1 className="text-heading text-secondary font-bold">Tech Stack</h1>
+            <h1 className={"text-heading  font-bold "+ `${theme==='dark' ? 'text-white':'text-secondary'}`}>Tech Stack</h1>
       </div>
       <div className="ml-3">
             <h4 className="text-xl text-primary">Languages</h4>

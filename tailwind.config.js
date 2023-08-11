@@ -14,7 +14,8 @@ export default {
         background:"#F7FAFC",
         skill:"#F6F6F6",
         project:"#EDF1FF",
-        dark:"#314E89"
+        dark:"#314E89",
+        darkmodebackground:"#1A202C"
       },
       fontSize:{
         heading:"2rem",

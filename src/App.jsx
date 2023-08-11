@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useSyncExternalStore } from 'react'
 import { Toaster,toast } from 'react-hot-toast'
 import './App.css'
 import profile from "./assets/pfp.jpg";
@@ -9,7 +9,9 @@ import SkillContainer from './components/Skiils/SkillContainer';
 import ProjectContainer from './components/Projects/ProjectContainer';
 import Footer from './components/Footer/Footer';
 import BlogsContainer from './components/Blogs/BlogsContainer';
+import { useThemeContext } from './hooks/useThemeContext';
 function App() {
+  const {theme}=useThemeContext()
   useEffect(()=>{
     toast.custom((t) => (
           <div
@@ -48,7 +50,7 @@ function App() {
         ))
 },[])
   return (
-    <div className='bg-background'>
+    <div className={`transition-colors ${theme==='dark' ? 'bg-darkmodebackground':'bg-background'}`}>
     <Navbar/>
     <Home/>
     <About/>

@@ -5,9 +5,11 @@ import Twitter from '../../assets/svg/twitter.svg'
 import Linkedin from '../../assets/svg/linkedin.svg'
 import Medium from '../../assets/svg/medium.svg'
 import Insta from '../../assets/svg/insta.svg'
+import { useThemeContext } from '../../hooks/useThemeContext'
 const Footer = () => {
+      const {theme}=useThemeContext();
   return (
-    <div className="md:max-w-4xl md:mx-auto p-3 md:p-5 border-t-[0.5px] border-t-primary">
+    <div className={"md:max-w-4xl md:mx-auto p-3 md:p-5 border-t-[0.5px] "+`${theme==='dark' ? 'border-t-white':'border-t-primary '}`}>
      <div className='flex justify-center w-full gap-7 p-4'>
      <div>
             <a href={github} className='text-xl' target='_blank' rel='noreferrer'>

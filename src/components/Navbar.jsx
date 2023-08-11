@@ -16,11 +16,11 @@ const Navbar = () => {
   const [open, setopen] = useState(false);
   const { theme ,changeTheme} = useThemeContext();
   return (
-    <section className="w-full h-20 p-2 flex  justify-between items-center md:justify-around  fixed top-0 z-999 bg-background">
+    <section className={"w-full h-20 p-2 flex  justify-between items-center md:justify-around  fixed top-0 z-999 "+`${theme==='dark' ? 'bg-darkmodebackground':'bg-background'}`}>
       <div className="w-10 m-3">
         <Logo />
       </div> 
-      <div className="absolute w-full h-auto p-5 top-20 md:static text-center bg-background">
+      <div className={"absolute w-full h-auto p-5 top-20 md:static text-center "+`${theme==='dark' ? 'bg-darkmodebackground':'bg-background'}`}>
         <ul className={"w-full flex flex-col items-center md:flex-row md:justify-center md:items-center"+`${open ? '':' hidden md:flex'}`}>
       {
         Links.map((link,index)=> (
