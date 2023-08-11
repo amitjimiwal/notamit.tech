@@ -2,7 +2,7 @@ import React,{createContext, useContext, useState} from 'react'
 
 export const AppContext=createContext();
 const ThemeContext = ({children}) => {
-  const [theme,setTheme]=useState('dark')
+  const [theme,setTheme]=useState('light')
   const changeTheme=()=>{
     setTheme(prev=> prev==='light'?'dark':'light');
   }
