@@ -143,6 +143,16 @@
       "techstack":[
         "REACTJS","FIREBASE"
       ]
+    },
+    {
+      "name":"Github-Wrapped",
+      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1702742821/Screenshot_2023-12-16_at_9.35.54_PM_r3eyfj.png",
+      "description":"Get Your Github Year Recap 🎉",
+      "github_repo":"https://github.com/amitjimiwal/Github-Wrapped",
+      "live_link":"https://github-wrapped-three.vercel.app/",
+      "techstack":[
+        "Next","ApolloClient","TypeScript"
+      ]
     }
   ],
   "blogs":[
