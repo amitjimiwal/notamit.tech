@@ -195,6 +195,16 @@
       "topics":[
        "javascript","console"
       ]
+    },
+    {
+      "blog_title":"Hoisting In Javascript :let/const vs var",
+      "blog_description":"Hoisting in simple terms can be defined as the allocation of memory to the variables and... ",
+      "post_date":"December 25 2023",
+      "read_time":"5 min read",
+      "blog_link":"https://notamit.hashnode.dev/understanding-hoisting-in-javascript-letconst-vs-var",
+      "topics":[
+       "javascript","web development"
+      ]
     }
   ]
 }
