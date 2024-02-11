@@ -153,6 +153,16 @@
       "techstack":[
         "Next","ApolloClient","TypeScript"
       ]
+    },  
+    {
+      "name":"ReadLogs",
+      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1707657594/Screenshot_2024-02-11_at_6.48.03_PM_b0ulxs.png",
+      "description":"Efficiently Manage Your Reads and Docs",
+      "github_repo":"https://github.com/amitjimiwal/ReadLogs",
+      "live_link":"https://readlogs.vercel.app/",
+      "techstack":[
+        "React","Appwrite","TypeScript"
+      ]
     }
   ],
   "blogs":[
