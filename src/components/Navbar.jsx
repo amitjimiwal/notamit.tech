@@ -1,10 +1,7 @@
 import { useState } from "react";
 import { useThemeContext } from "../hooks/useThemeContext";
-import Light from "./icons/Light";
-import Logo from "./icons/Logo";
 import Bars from "./icons/Bars";
 import Close from "./icons/Close";
-import Dark from "./icons/Dark";
 let Links = [
   { name: "Home", link: "/#home" },
   { name: "About", link: "#about" },
@@ -14,12 +11,12 @@ let Links = [
 ];
 const Navbar = () => {
   const [open, setopen] = useState(false);
-  const { theme ,changeTheme} = useThemeContext();
+  const { theme } = useThemeContext();
   return (
     <section className={"w-full h-20 p-2 flex  justify-between items-center md:justify-around  fixed top-0 z-999 "+`${theme==='dark' ? 'bg-darkmodebackground':'bg-background'}`}>
-      <div className="w-10 m-3">
+      {/* <div className="w-10 m-3">
         <Logo />
-      </div> 
+      </div>  */}
       <div className={"absolute w-full h-auto p-5 top-20 md:static text-center "+`${theme==='dark' ? 'bg-darkmodebackground':'bg-background'}`}>
         <ul className={"w-full flex flex-col items-center md:flex-row md:justify-center md:items-center"+`${open ? '':' hidden md:flex'}`}>
       {
@@ -32,13 +29,13 @@ const Navbar = () => {
         </ul>
       </div>
      <div className="flex items-center mr-2">
-     <div onClick={()=>{
+     {/* <div onClick={()=>{
       changeTheme()
       }} className="w-10 m-3">
         <div>
         { theme==='dark' ? <Light />: <Dark/>}
         </div>
-      </div>
+      </div> */}
       <div onClick={()=> setopen(!open)} className="md:hidden">
         <div>
          {open ? <Close/>: <Bars />}

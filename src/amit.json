@@ -1,6 +1,7 @@
 {
   "name": "Amit Jimiwal",
-  "tagline": "Full Stack Web developer, Open source contributor and Student",
+  "image":"https://res.cloudinary.com/dejzy9q65/image/upload/v1709027673/img_awoni2.jpg",
+  "tagline": "Full Stack Developer, Open source contributor , Building things for the Web.",
   "nickname": "notamit",
   "about":" Amit this side, a 3rd year student from Maharaja Surajmal Institute of Technology, Delhi (🇮🇳) majoring in Computer Science Engineering. I'm a Full Stack Developer having experience in MERN Stack, frameworks like Nextjs . I'm also a open-source enthusiast who believes in the power of community. Writing clean code is and will always be a top priority for me.",
   "email": "amitjimiwal45@gmail.com",
@@ -8,7 +9,7 @@
   "twitter": "https://twitter.com/notamit_dev",
   "medium": "https://medium.com/@amitjimiwal",
   "linkedin": "https://www.linkedin.com/in/amitjimiwal/",
-  "resume_link":"https://drive.google.com/drive/u/0/folders/1_8lcqPLkeTYZBU7SBH096q2r-6lpnaqa",
+  "resume_link":"https://drive.google.com/file/d/1fROSQ5HnJWgbUJ64qVminHe9Rmn7JVid/view?usp=sharing",
   "instagram": "https://www.instagram.com/_amit.jimiwal_/",
   "skills": {
     "languages": [
@@ -93,7 +94,7 @@
       "title": "Full Stack Developer",
       "company": "myCBSEguide",
       "date_joining": "August 2023",
-      "date_left": "Present",
+      "date_left": "September 2023",
       "description": "Working in migrating the codebase from Angular to React, optimizing the web application's performance and user experience. Collaborating with the development team to refactor and implement modern React components."
     },
     {
@@ -114,6 +115,26 @@
     }
   ],
   "projects":[
+    {
+      "name":"ReadLogs",
+      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1707657594/Screenshot_2024-02-11_at_6.48.03_PM_b0ulxs.png",
+      "description":"Efficiently Manage Your Reads and Docs",
+      "github_repo":"https://github.com/amitjimiwal/ReadLogs",
+      "live_link":"https://readlogs.vercel.app/",
+      "techstack":[
+        "React","Appwrite","TypeScript"
+      ]
+    },
+    {
+      "name":"Github-Wrapped",
+      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1702742821/Screenshot_2023-12-16_at_9.35.54_PM_r3eyfj.png",
+      "description":"Get Your Github Year Recap 🎉",
+      "github_repo":"https://github.com/amitjimiwal/Github-Wrapped",
+      "live_link":"https://github-wrapped-three.vercel.app/",
+      "techstack":[
+        "Next","ApolloClient","TypeScript"
+      ]
+    },
     {
       "name":"HealthCare_Web",
       "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1690118877/healthcare_rxsbtd.jpg",
@@ -143,29 +164,29 @@
       "techstack":[
         "REACTJS","FIREBASE"
       ]
-    },
-    {
-      "name":"Github-Wrapped",
-      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1702742821/Screenshot_2023-12-16_at_9.35.54_PM_r3eyfj.png",
-      "description":"Get Your Github Year Recap 🎉",
-      "github_repo":"https://github.com/amitjimiwal/Github-Wrapped",
-      "live_link":"https://github-wrapped-three.vercel.app/",
-      "techstack":[
-        "Next","ApolloClient","TypeScript"
-      ]
-    },  
-    {
-      "name":"ReadLogs",
-      "previewimage":"https://res.cloudinary.com/dejzy9q65/image/upload/v1707657594/Screenshot_2024-02-11_at_6.48.03_PM_b0ulxs.png",
-      "description":"Efficiently Manage Your Reads and Docs",
-      "github_repo":"https://github.com/amitjimiwal/ReadLogs",
-      "live_link":"https://readlogs.vercel.app/",
-      "techstack":[
-        "React","Appwrite","TypeScript"
-      ]
     }
   ],
   "blogs":[
+    {
+      "blog_title":"Hoisting In Javascript :let/const vs var",
+      "blog_description":"Hoisting in simple terms can be defined as the allocation of memory to the variables and... ",
+      "post_date":"December 25 2023",
+      "read_time":"5 min read",
+      "blog_link":"https://notamit.hashnode.dev/understanding-hoisting-in-javascript-letconst-vs-var",
+      "topics":[
+       "javascript","web development"
+      ]
+    },
+    {
+      "blog_title":"Why state management is required in React ?",
+      "blog_description":"As you go through learning React, you will need to manage state efficiently in your application. A state is a built-in React object that contains some information about a component. Managing state...",
+      "post_date":"April 27 2023",
+      "read_time":"2 min read",
+      "blog_link":"https://medium.com/@amitjimiwal/why-state-management-is-required-in-react-e4f0b3e6926d",
+      "topics":[
+        "react","state management","javascript"
+      ]
+    },
     {
       "blog_title":"Handling search queries on pressing Enter in two Steps !",
       "blog_description":"Lets say you have a search input used for search queries in your project frontend which is calling an backend api... ",
@@ -187,16 +208,6 @@
       ]
     },
     {
-      "blog_title":"Why state management is required in React ?",
-      "blog_description":"As you go through learning React, you will need to manage state efficiently in your application. A state is a built-in React object that contains some information about a component. Managing state...",
-      "post_date":"April 27 2023",
-      "read_time":"2 min read",
-      "blog_link":"https://medium.com/@amitjimiwal/why-state-management-is-required-in-react-e4f0b3e6926d",
-      "topics":[
-        "react","state management","javascript"
-      ]
-    },
-    {
       "blog_title":"Better way to see array of objects in the console -console.table()",
       "blog_description":"A lot of javascript developers sometimes find it diffcult to properly see the structure of the Objects array which they get from an API or any other function. So,a lot of developers uses...",
       "post_date":"May 11 2023",
@@ -204,16 +215,6 @@
       "blog_link":"https://medium.com/@amitjimiwal/better-way-to-see-array-of-objects-in-the-console-console-table-e0b8f9c6d4e4",
       "topics":[
        "javascript","console"
-      ]
-    },
-    {
-      "blog_title":"Hoisting In Javascript :let/const vs var",
-      "blog_description":"Hoisting in simple terms can be defined as the allocation of memory to the variables and... ",
-      "post_date":"December 25 2023",
-      "read_time":"5 min read",
-      "blog_link":"https://notamit.hashnode.dev/understanding-hoisting-in-javascript-letconst-vs-var",
-      "topics":[
-       "javascript","web development"
       ]
     }
   ]

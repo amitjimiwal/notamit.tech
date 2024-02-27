@@ -19,7 +19,8 @@ export default {
       },
       fontSize:{
         heading:"2rem",
-        subheading:"1.5rem"
+        subheading:"1.5rem",
+        main:"3rem"
       }
     },
   },
