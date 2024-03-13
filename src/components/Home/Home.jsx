@@ -8,7 +8,7 @@ const Home = () => {
       <div className='sm:w-[300px] w-[250px] text-center mx-auto'>
         <img src={image} alt="profileimage" className="object-contain rounded-lg" />
       </div>
-      <div className='tracking-wider font-bold text-lg text-center sm:text-left pl-4 flex justify-center flex-col'>
+      <div className='tracking-wider font-bold text-lg text-justify sm:text-left pl-4 flex justify-center flex-col'>
       <h2 className="sm:text-main text-primary">
           {" "}
           Hi, I am{" "}

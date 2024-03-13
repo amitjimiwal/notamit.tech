@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useThemeContext } from "../hooks/useThemeContext";
 import Bars from "./icons/Bars";
 import Close from "./icons/Close";
+import {logo} from '../amit.json';
 let Links = [
   { name: "Home", link: "/#home" },
   { name: "About", link: "#about" },
@@ -14,9 +15,9 @@ const Navbar = () => {
   const { theme } = useThemeContext();
   return (
     <section className={"w-full h-20 p-2 flex  justify-between items-center md:justify-around  fixed top-0 z-999 "+`${theme==='dark' ? 'bg-darkmodebackground':'bg-background'}`}>
-      {/* <div className="w-10 m-3">
-        <Logo />
-      </div>  */}
+      <div className="w-10 m-3">
+        <img src={logo} alt="logo"/>
+      </div> 
       <div className={"absolute w-full h-auto p-5 top-20 md:static text-center "+`${theme==='dark' ? 'bg-darkmodebackground':'bg-background'}`}>
         <ul className={"w-full flex flex-col items-center md:flex-row md:justify-center md:items-center"+`${open ? '':' hidden md:flex'}`}>
       {
